@@ -1,0 +1,80 @@
+body {
+    background: radial-gradient(circle, #1e1e1e, #3a3a3a);
+    color: white;
+    margin: 30px;
+}
+p {
+    font-family: "Lato," sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Playfair Display," serif;
+}
+header {
+    text-align: center;
+}
+
+.btn {
+    background: radial-gradient(circle, #c8a96a, #c8a96a, #b79043, #765a23);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+    color: black;
+    display: inline-block;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0);
+    transform: translateY(0);
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    color : lightgrey;
+    border-radius: 20px;
+    transform: translateY(-4px);
+}
+
+img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+@media (max-width: 768px){
+    .container {
+        flex-direction: column;
+        justify-content: left;
+    }
+    .suite {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding : 20px;
+     background: radial-gradient(circle, #1e1e1e, #3a3a3a);
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0);
+}
+
+.suite {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    flex-direction: column;
+    border-radius: 20px;;
+    background: radial-gradient(circle, #1e1e1e, #3a3a3a);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0);
+}
+
+.room {
+    display: inline-block;
+    padding: 20px;
+    gap: 20px;
+    background: radial-gradient(circle, #1e1e1e, #3a3a3a);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0);
+    border-radius: 20px;
+}
